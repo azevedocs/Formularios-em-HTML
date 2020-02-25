@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="utf-8">
+     <title>AzedinhoPic.Com</title>
+     
+     <style>
+     	body {background-color: black; 
+     		color: black}
+     </style>
+
+</head>
+
+<body>
+
+<style>
+	body {color: white;}
+</style>	
+
+<style>
+	div {color: white;}
+</style>
+
+ <style>
+    label {color: white;} 
+ </style>
+
+<div>ENTRAR NA CONTA</div>
+<br>
+
+
+ <form action="processa.php" method="post">
+ 	
+ 	<label>Login:</label>
+    <input type="text" name="texto1" placeholder="insira seu login">
+    
+    <label>Senha:</label> 
+    <Input type="password" nome="senhas" placeholder="insira sua senha">
+
+    <br>
+    <br>
+    
+    <label>Selecione o tipo de conta:</label>
+    <select name="selecao">
+    	<option value="1">Conta Corrente</option>
+    	<option value="2">Conta Poupança</option>
+    	<option value="3">Conta Empresa LTDA</option>
+    </select>
+    
+    <br>
+    <br>
+
+    <label>Tipo de Pessoa:</label> <br>
+    <input type="radio" name="radio1" value="1"> Pessoa Juridica <br>
+    <input type="radio" name="radio2" value="2"> Pessoa Física <br>
+
+    <br>
+
+    <label>Contato:</label><br>
+    <input type="checkbox" name="ck1" value="1" checked> SMS <br>
+    <Input type="checkbox" name="ck1" value="2"> E-mail <br>
+    <Input type="checkbox" name="ck1" value="3"> WhatsApp <br>
+    <Input type="checkbox" name="ck1" value="4"> Celular <br>
+
+    <br>
+
+    <input type="submit" value="Enviar" name="submit"><br> 
+
+</body>
+</html>
